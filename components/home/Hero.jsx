@@ -5,15 +5,15 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('/images/hero/background.png')",
+            "url('/images/hero/back1.jpeg')",
         }}
       />
 
       <div className="absolute inset-0 bg-white/20" />
 
-      <div className="relative z-10 mx-auto max-w-7xl px-8">
+      <div className="relative z-10 mx-auto max-w-7xl px-8 md:pl-23">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
-          Physics Communication
+          Notes on Physics
         </p>
 
         <h1 className="max-w-4xl text-6xl font-light leading-tight text-black md:text-8xl">
