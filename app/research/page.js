@@ -1,26 +1,22 @@
 import Navbar from "@/components/layout/Navbar";
+import PageBackground from "@/components/layout/PageBackground";
 
 export default function ResearchPage() {
   return (
     <>
       <Navbar />
 
-      <main
-        className="min-h-screen bg-cover bg-center px-8 py-24 text-black md:ml-52"
-        style={{
-          backgroundImage: "url('/images/hero/back1.jpeg')",
-        }}
-      >
-        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 backdrop-blur-md">
+      <PageBackground>
+        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 backdrop-blur-md dark:bg-black/75">
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
             Research
           </p>
 
-          <h1 className="mb-10 text-5xl font-light text-black">
+          <h1 className="mb-10 text-5xl font-light text-black dark:text-white">
             Quantum Reference Frames
           </h1>
 
-          <div className="space-y-6 text-lg leading-8 text-neutral-900">
+          <div className="space-y-6 text-lg leading-8 text-neutral-900 dark:text-neutral-100">
             <p>
               In physics, we often describe experiments relative to a reference
               frame: a clock, a ruler, a laboratory, or a chosen set of
@@ -49,7 +45,7 @@ export default function ResearchPage() {
           </div>
 
           <div className="mt-12 border-t border-[#e21d4a]/20 pt-8">
-            <h2 className="mb-5 text-2xl font-light text-black">
+            <h2 className="mb-5 text-2xl font-light text-black dark:text-white">
               Research Interests
             </h2>
 
@@ -62,7 +58,10 @@ export default function ResearchPage() {
                 "Relational Observables",
                 "Quantum Gravity",
               ].map((item) => (
-                <p key={item} className="flex items-center gap-3 text-neutral-900">
+                <p
+                  key={item}
+                  className="flex items-center gap-3 text-neutral-900 dark:text-neutral-100"
+                >
                   <span className="text-[#e21d4a]">➤</span>
                   {item}
                 </p>
@@ -70,7 +69,7 @@ export default function ResearchPage() {
             </div>
           </div>
         </section>
-      </main>
+      </PageBackground>
     </>
   );
 }

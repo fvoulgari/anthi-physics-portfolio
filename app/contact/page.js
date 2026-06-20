@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/Navbar";
+import PageBackground from "@/components/layout/PageBackground";
 import { Mail } from "lucide-react";
 
 export default function ContactPage() {
@@ -6,23 +7,18 @@ export default function ContactPage() {
     <>
       <Navbar />
 
-      <main
-        className="min-h-screen bg-cover bg-center px-8 py-24 text-black md:ml-52"
-        style={{
-          backgroundImage: "url('/images/hero/back1.jpeg')",
-        }}
-      >
+      <PageBackground>
         <section className="mx-auto flex min-h-[70vh] max-w-5xl items-center justify-center">
-          <div className="w-full max-w-2xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 text-center backdrop-blur-md">
+          <div className="w-full max-w-2xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 text-center backdrop-blur-md dark:bg-black/75">
             <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
               Contact
             </p>
 
-            <h1 className="mb-6 text-5xl font-light text-black">
+            <h1 className="mb-6 text-5xl font-light text-black dark:text-white">
               Say hello
             </h1>
 
-            <p className="mx-auto mb-10 max-w-xl text-lg leading-8 text-neutral-800">
+            <p className="mx-auto mb-10 max-w-xl text-lg leading-8 text-neutral-800 dark:text-neutral-200">
               For research discussions, collaborations, writing, or simply to
               get in touch.
             </p>
@@ -50,7 +46,7 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-      </main>
+      </PageBackground>
     </>
   );
 }

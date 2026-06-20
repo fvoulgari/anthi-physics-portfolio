@@ -1,28 +1,24 @@
 import Image from "next/image";
 import Navbar from "@/components/layout/Navbar";
+import PageBackground from "@/components/layout/PageBackground";
 
 export default function AboutPage() {
   return (
     <>
       <Navbar />
 
-      <main
-        className="min-h-screen bg-cover bg-center px-8 py-24 text-black md:ml-52"
-        style={{
-          backgroundImage: "url('/images/hero/back1.jpeg')",
-        }}
-      >
-        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 backdrop-blur-md">
+      <PageBackground>
+        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 backdrop-blur-md dark:bg-black/75">
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
             About
           </p>
 
-          <h1 className="mb-12 text-5xl font-light text-black">
+          <h1 className="mb-12 text-5xl font-light text-black dark:text-white">
             Anthi
           </h1>
 
           <div className="grid gap-12 md:grid-cols-3">
-            <div className="space-y-5 text-lg leading-8 text-neutral-900 md:col-span-2">
+            <div className="space-y-5 text-lg leading-8 text-neutral-900 dark:text-neutral-100 md:col-span-2">
               <p>
                 I recently completed the High Energy Physics Master’s program
                 jointly offered by École Polytechnique in Paris and ETH Zurich.
@@ -55,7 +51,7 @@ export default function AboutPage() {
             </div>
 
             <div className="flex justify-center md:justify-end">
-              <div className="relative h-72 w-72 overflow-hidden rounded-xl border border-[#e21d4a]/20 bg-white/60 shadow-lg">
+              <div className="relative h-72 w-72 overflow-hidden rounded-xl border border-[#e21d4a]/20 bg-white/60 shadow-lg dark:bg-black/50">
                 <Image
                   src="/images/hero/anthi.jpg"
                   alt="Anthi Voulgari Revof"
@@ -66,7 +62,7 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-      </main>
+      </PageBackground>
     </>
   );
 }
