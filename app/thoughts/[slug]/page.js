@@ -1,6 +1,17 @@
 import Navbar from "@/components/layout/Navbar";
 import PageBackground from "@/components/layout/PageBackground";
 
+const thoughts = [
+  "why-time-feels-strange",
+  "entropy-and-everyday-life",
+];
+
+export function generateStaticParams() {
+  return thoughts.map((slug) => ({
+    slug,
+  }));
+}
+
 export default async function ThoughtArticlePage({ params }) {
   const { slug } = await params;
 
