@@ -4,65 +4,66 @@ import Image from "next/image";
 import { useState } from "react";
 
 const artworks = [
-  {
-    title: "Untitled Study I",
-    date: "2026",
-    image: "/images/sketchbook/artwork-01.jpg",
-  },
-  {
-    title: "Untitled Study II",
-    date: "2026",
-    image: "/images/sketchbook/artwork-02.jpg",
-  },
-  {
-    title: "Untitled Study III",
-    date: "2026",
-    image: "/images/sketchbook/artwork-03.jpg",
-  },
-  {
-    title: "Untitled Study IV",
-    date: "2026",
-    image: "/images/sketchbook/artwork-04.jpg",
-  },
-  {
-    title: "Untitled Study V",
-    date: "2026",
-    image: "/images/sketchbook/artwork-05.jpg",
-  },
-  {
-    title: "Untitled Study VI",
-    date: "2026",
-    image: "/images/sketchbook/artwork-06.jpg",
-  },
-  {
-    title: "Untitled Study VII",
-    date: "2026",
-    image: "/images/sketchbook/artwork-07.jpg",
-  },
-  {
-    title: "Untitled Study VIII",
-    date: "2026",
-    image: "/images/sketchbook/artwork-08.jpg",
-  },
-  {
-    title: "Untitled Study IX",
-    date: "2026",
-    image: "/images/sketchbook/artwork-09.jpg",
-  },
-  {
-    title: "Untitled Study X",
-    date: "2026",
-    image: "/images/sketchbook/artwork-10.jpg",
-  },
-  {
-    title: "Untitled Study XI",
-    date: "2026",
+   {
+    title: "Digital",
+    date: "August 2025",
     image: "/images/sketchbook/artwork-11.jpg",
   },
   {
-    title: "Untitled Study XII",
-    date: "2026",
+    title: "Acrylic On Paper",
+    date: "May 2023",
+    image: "/images/sketchbook/artwork-04.jpg",
+  },
+
+  {
+    title: "Digital",
+    date: "September 2025",
+    image: "/images/sketchbook/artwork-08.jpg",
+  },
+  {
+    title: "Ink On Paper",
+    date: "December 2022",
+    image: "/images/sketchbook/artwork-01.jpg",
+  },
+  {
+    title: "Ink On Paper",
+    date: "April 2023",
+    image: "/images/sketchbook/artwork-02.jpg",
+  },
+  {
+    title: "Ink On Paper",
+    date: "April 2023",
+    image: "/images/sketchbook/artwork-05.jpg",
+  },
+  {
+    title: "Digital",
+    date: "July 2025",
+    image: "/images/sketchbook/artwork-09.jpg",
+  },
+  {
+    title: "Charcoal On Paper",
+    date: "January 2023",
+    image: "/images/sketchbook/artwork-06.jpg",
+  },
+  {
+    title: "Photography",
+    date: "September 2024",
+    image: "/images/sketchbook/artwork-07.jpg",
+  },
+  {
+    title: "Digital",
+    date: "June 2024",
     image: "/images/sketchbook/artwork-12.jpg",
+  },
+  {
+    title: "Charcoal On Paper",
+    date: "March 2023",
+    image: "/images/sketchbook/artwork-03.jpg",
+  },
+  {
+    title: "Watercolour On Paper",
+    date: "June 2024",
+    image: "/images/sketchbook/artwork-10.jpg",
   },
 ];
 
