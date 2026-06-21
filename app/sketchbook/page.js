@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import PageBackground from "@/components/layout/PageBackground";
 import SketchbookGallery from "@/components/sketchbook/SketchbookGallery";
+import BackToTopButton from "@/components/ui/BackToTopButton";
 
 export default function SketchbookPage() {
   return (
@@ -13,7 +14,7 @@ export default function SketchbookPage() {
             Sketchbook
           </p>
 
-          <h1 className="mb-12 text-5xl font-light text-black dark:text-white">
+          <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:mb-10 md:text-5xl">
             Drawings and visual notes
           </h1>
 
@@ -24,6 +25,8 @@ export default function SketchbookPage() {
           </p>
 
           <SketchbookGallery />
+
+          <BackToTopButton />
         </section>
       </PageBackground>
     </>

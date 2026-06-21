@@ -12,7 +12,7 @@ export default function ResearchPage() {
             Research
           </p>
 
-          <h1 className="mb-10 text-5xl font-light text-black dark:text-white">
+          <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:mb-10 md:text-5xl">
             Quantum Reference Frames
           </h1>
 

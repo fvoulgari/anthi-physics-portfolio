@@ -14,9 +14,10 @@ export default function ContactPage() {
               Contact
             </p>
 
-            <h1 className="mb-6 text-5xl font-light text-black dark:text-white">
+            <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:mb-10 md:text-5xl">
               Get In Touch
             </h1>
+            
 
             <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
               <a

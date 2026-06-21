@@ -8,17 +8,17 @@ export default function AboutPage() {
       <Navbar />
 
       <PageBackground>
-        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-12 backdrop-blur-md dark:bg-black/75">
+        <section className="mx-auto max-w-5xl rounded-2xl border border-[#e21d4a]/20 bg-white/75 p-6 backdrop-blur-md dark:bg-black/75 md:p-12">
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
             About
           </p>
 
-          <h1 className="mb-12 text-5xl font-light text-black dark:text-white">
+          <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:mb-12 md:text-5xl">
             Anthi
           </h1>
 
-          <div className="grid gap-12 md:grid-cols-3">
-            <div className="space-y-5 text-lg leading-8 text-neutral-900 dark:text-neutral-100 md:col-span-2">
+          <div className="grid gap-8 md:grid-cols-3 md:gap-12">
+            <div className="space-y-5 text-base leading-7 text-neutral-900 dark:text-neutral-100 md:col-span-2 md:text-lg md:leading-8">
               <p>
                 I recently completed the High Energy Physics Master’s program
                 jointly offered by École Polytechnique in Paris and ETH Zurich.
@@ -30,18 +30,19 @@ export default function AboutPage() {
               </p>
 
               <p>
-                Through this space, I collect thoughts on physics, philosophy of science,
-                and the questions that shape how we understand the
+                Through this space, I collect thoughts on physics, philosophy of
+                science, and the questions that shape how we understand the
                 world.
               </p>
             </div>
 
-            <div className="flex justify-center md:justify-end">
-              <div className="relative h-72 w-72 overflow-hidden rounded-xl border border-[#e21d4a]/20 bg-white/60 shadow-lg dark:bg-black/50">
+            <div className="order-first flex justify-center md:order-none md:justify-end">
+              <div className="relative h-56 w-56 overflow-hidden rounded-xl border border-[#e21d4a]/20 bg-white/60 shadow-lg dark:bg-black/50 md:h-72 md:w-72">
                 <Image
                   src="/images/hero/anthi.jpg"
                   alt="Anthi Voulgari Revof"
                   fill
+                  sizes="(max-width: 768px) 224px, 288px"
                   className="object-cover grayscale transition duration-300 hover:grayscale-0"
                 />
               </div>

@@ -21,7 +21,7 @@ export default async function ThoughtArticlePage({ params }) {
             June 2026
           </p>
 
-          <h1 className="mb-8 text-5xl font-light text-black dark:text-white">
+          <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:text-5xl">
             {slug.replaceAll("-", " ")}
           </h1>
 

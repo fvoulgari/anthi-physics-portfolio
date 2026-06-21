@@ -24,8 +24,7 @@ export default function ThoughtsPage() {
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
             Thoughts
           </p>
-
-          <h1 className="mb-12 text-5xl font-light text-black dark:text-white">
+          <h1 className="mb-8 text-4xl font-light text-black dark:text-white md:mb-10 md:text-5xl">
             Essays and reflections
           </h1>
 
