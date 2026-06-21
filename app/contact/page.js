@@ -15,21 +15,16 @@ export default function ContactPage() {
             </p>
 
             <h1 className="mb-6 text-5xl font-light text-black dark:text-white">
-              Say hello
+              Get In Touch
             </h1>
-
-            <p className="mx-auto mb-10 max-w-xl text-lg leading-8 text-neutral-800 dark:text-neutral-200">
-              For research discussions, collaborations, writing, or simply to
-              get in touch.
-            </p>
 
             <div className="flex flex-col items-center gap-6 md:flex-row md:justify-center md:gap-10">
               <a
-                href="mailto:anthibee@gmail.com"
+                href="mailto:anthi.v.revof@usn.no"
                 className="flex items-center gap-3 text-[#e21d4a] transition hover:opacity-70"
               >
                 <Mail size={22} />
-                <span>anthibee@gmail.com</span>
+                <span>anthi.v.revof@usn.no</span>
               </a>
 
               <a

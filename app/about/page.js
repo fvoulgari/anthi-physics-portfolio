@@ -30,24 +30,10 @@ export default function AboutPage() {
               </p>
 
               <p>
-                Through this space, I collect thoughts on physics, science,
-                philosophy, and the questions that shape how we understand the
+                Through this space, I collect thoughts on physics, philosophy of science,
+                and the questions that shape how we understand the
                 world.
               </p>
-
-              <div className="grid gap-3 pt-6 md:grid-cols-2">
-                {[
-                  "High Energy Physics",
-                  "Quantum Reference Frames",
-                  "Scientific writing",
-                  "Physics & philosophy",
-                ].map((item) => (
-                  <p key={item} className="flex items-center gap-3">
-                    <span className="text-[#e21d4a]">➤</span>
-                    {item}
-                  </p>
-                ))}
-              </div>
             </div>
 
             <div className="flex justify-center md:justify-end">

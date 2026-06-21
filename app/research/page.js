@@ -44,7 +44,7 @@ export default function ResearchPage() {
             </p>
           </div>
 
-          <div className="mt-12 border-t border-[#e21d4a]/20 pt-8">
+          <div className="mt-12 border-t border-[#e21d4a]/20 pt-8 dark:border-white/40">
             <h2 className="mb-5 text-2xl font-light text-black dark:text-white">
               Research Interests
             </h2>
@@ -55,8 +55,6 @@ export default function ResearchPage() {
                 "Foundations of Quantum Theory",
                 "General Relativity",
                 "Quantum Field Theory",
-                "Relational Observables",
-                "Quantum Gravity",
               ].map((item) => (
                 <p
                   key={item}

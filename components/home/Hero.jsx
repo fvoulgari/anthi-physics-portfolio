@@ -26,15 +26,15 @@ export default function Hero() {
       <div className="absolute inset-0 bg-white/20 dark:bg-transparent" />
 
       <div className="relative z-10 mx-auto max-w-7xl px-8 md:pl-23">
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
-          Notes on Physics
-        </p>
-
         <h1 className="max-w-4xl text-5xl font-light leading-tight text-black md:text-7xl dark:text-white">
+          Notes on Physics
+        </h1>
+
+        <p className="mt-4 text-sm uppercase tracking-[0.3em] text-[#e21d4a]">
           Research, thoughts
           <br />
           and occasional artwork
-        </h1>
+        </p>
       </div>
     </section>
   );
